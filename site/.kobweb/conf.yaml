@@ -1,0 +1,14 @@
+site:
+  title: "com.example.lancer"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/dist/js/developmentExecutable/lancer.js"
+      api: "build/libs/lancer.jar"
+    prod:
+      script: "build/dist/js/productionExecutable/lancer.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
